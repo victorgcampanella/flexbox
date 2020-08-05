@@ -5,6 +5,10 @@ html, body, #app {
 
 #app {
   display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 .box {
@@ -12,5 +16,4 @@ html, body, #app {
   height: 60px;
   background: #f00;
   margin: 5px;
-  flex: 1;
 }
